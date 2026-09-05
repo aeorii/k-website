@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width", initial-scale=1.0>
+	<title>Home Page</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:wght@900&display=swap" rel="stylesheet"/>
+
+	<link rel="stylesheet" type="text/css" href="css/indexcss.css"/>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+	<link href="https://fonts.googleapis.com/css2?family=Neuton:wght@300&family=Slabo+27px&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+</head>
+<body>
+<div class="top-nav-bar">
+	<a href="index.html">
+		<img src="images/jinhitlogo.png" alt="Jinhit" class="logo"/>
+	</a>
+	<div class="menu-bar">
+	<nav>
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="about_US.html">ABOUT US</a></li>		
+			<li><a href="gallery.html">ARTISTS</a></li>
+			<li><a href="pd.html">PD</a></li>
+			<li><a href="discography.html">DISCOGRAPHY</a></li>
+			<li><a href="audition.html">AUDITION</a></li>
+		</ul>
+	</nav>
+	</div>
+	<a class="cta" href="contact.html" target="_blank">
+		<button><h2>Contact</h2></button>
+	</a>
+</div>
+
+<!--body section-->
+<div class="body-content">
+	<div class="slider">
+		<div class="slides">
+			<input type="radio" name="radio-btn" id="radio1">
+			<input type="radio" name="radio-btn" id="radio2">
+			<input type="radio" name="radio-btn" id="radio3">
+			<input type="radio" name="radio-btn" id="radio4">
+
+			<div class="slide first">
+				<img src="images/1.png" alt="Ode to you SVT"/>
+			</div>
+			<div class="slide">
+				<img src="images/2.png" alt="THANXX ATEEZ"/>
+			</div>
+			<div class="slide">
+				<img src="images/3.png" alt="CYSM TXT"/>
+			</div>
+			<div class="slide">
+				<img src="images/4.png" alt="THE ROSE"/>
+			</div>
+
+		<div class="navigation-auto">
+				<div class="auto-btn1"></div>
+				<div class="auto-btn2"></div>
+				<div class="auto-btn3"></div>
+				<div class="auto-btn4"></div>
+			</div>
+		</div>
+				<div class="navigation-manual">
+				<label for="radio1" class="manual-btn"></label>
+				<label for="radio2" class="manual-btn"></label>
+				<label for="radio3" class="manual-btn"></label>
+				<label for="radio4" class="manual-btn"></label>
+			</div>
+</div>
+</div>
+<script type="text/javascript">
+	var counter =1;
+	setInterval(function(){
+		document.getElementById('radio' + counter).checked = true;
+		counter++;
+		if(counter>4){
+			counter=1;
+		}
+	}, 5000);
+</script>
+
+
+<!--Footer-->
+<div class="footer">
+	<div class="inner-footer">
+		<div class="footer-items">
+			<h1>Connect with Us</h1>
+			<div class="border"></div>
+			<div class="social-media">
+				<a href="https://www.facebook.com/JinHitEntBD/"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+				<a href="https://www.instagram.com/jinhit/?hl=en"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+				<a href="https://twitter.com/jin_hit_ent"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+				<a href="https://www.youtube.com/channel/UCWofNmoukbPFC1M7roUdecw/videos"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a>
+			</div>
+		</div>
+
+			<div class="footer-items">
+			<h1>Site Map</h1>
+			<div class="border"></div>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="about_US.html">ABOUT US</a></li>		
+				<li><a href="gallery.html">ARTISTS</a></li>
+				<li><a href="pd.html">PD</a></li>
+				<li><a href="discography.html">DISCOGRAPHY</a></li>
+				<li><a href="audition.html">AUDITION</a></li>
+			</ul>
+		</div>
+
+		<div class="footer-items">
+			<h1>Contact</h1>
+			<div class="border"></div>
+			<ul>
+				<a href="https://www.google.com/maps/place/Islington+College/@27.7087027,85.3259876,15z/data=!4m5!3m4!1s0x0:0x1fdf1a6d41d2512d!8m2!3d27.7087027!4d85.3259876"><li><i class="fa fa-map-marker" aria-hidden="true"> Kamal Marg, Kamal Pokhari, Kathmandu, Nepal</i></li></a>
+				<li><i class="fa fa-phone" aria-hidden="true"> 441-2929, 980-1022446</i></li>
+				<a href="mailto:jinhit@jinhit.com"><li><i class="fa fa-envelope" aria-hidden="true"> jinhit@jinhit.com</i></li></a>
+				<li><i class="fa fa-fax" aria-hidden="true"> +1 323 555 1234</i></li>
+			</ul>
+		</div>
+	</div>
+	<div class="footer-bottom">
+	Copyright &copy; 2020 JINHIT Co.Ltd. All rights reserved.
+	</div>
+</div>
+</body>
+</html>

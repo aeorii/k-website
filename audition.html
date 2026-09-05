@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width", initial-scale=1.0>
+	<title>Audition</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:wght@900&display=swap" rel="stylesheet"/>
+
+	<link rel="stylesheet" type="text/css" href="css/audition.css"/>
+	<script type="text/javascript" src="js/contact.js"></script>
+
+	<link href="https://fonts.googleapis.com/css2?family=Neuton:wght@300&family=Slabo+27px&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+</head>
+<body>
+<div class="top-nav-bar">
+	<a href="index.html">
+		<img src="images/jinhitlogo.png" alt="Jinhit" class="logo"/>
+	</a>
+	<div class="menu-bar">
+	<nav>
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="about_US.html">ABOUT US</a></li>		
+			<li><a href="gallery.html">ARTISTS</a></li>
+			<li><a href="pd.html">PD</a></li>
+			<li><a href="discography.html">DISCOGRAPHY</a></li>
+			<li><a href="audition.html">AUDITION</a></li>
+		</ul>
+	</nav>
+	</div>
+	<a class="cta" href="contact.html" target="_blank">
+		<button><h2>Contact</h2></button>
+	</a>
+</div>
+
+<div class="body-content">
+	<div class="box">
+		<h3>AUDITION</h3>
+	</div>
+
+	<div class="row">
+		<div class="col100">
+			<h5>Join the Jinhit Family</h5>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col100">
+			<h4>Jinhit Entertainment is recruiting talented people in various fields such as idols, producers, lyrics, and composition. Grab this opportunity to be a part of our company.
+			</h4>
+		</div>
+	</div>
+	
+	<p><br/><br/>&nbsp;&nbsp;&nbsp;Please fill out the application form to apply for the audition.</p>
+
+	<div class="row">
+		<div class="col100">
+			<div class="box1">
+<div id="signUpError" style="color:red;"> 
+</div>
+	<form action="#" method="POST" name="signup" enctype="multipart/form-data" onsubmit="return validateSignup()">
+		<fieldset>
+			<legend>&nbsp;&nbsp;Inquiry</legend>
+			<table border=0 cellpadding="5" cellspacing="30" width="100%">
+				<tr>
+					<td><label>Name</label></td>
+					<td><input type="Text" name="fullname" size="30" maxlength="50" placeholder="fullname" required="required" />
+					</td>
+				</tr>
+				<tr>
+					<td><label>Email Address</label></td>
+					<td><input type="email" name="email" placeholder="you@domain.com" size="30" maxlength="50" required /> </td>
+				</tr>
+
+				<tr>
+					<td>Gender</td>
+					<td>
+						<input type="radio" name="gender" value="M" checked="checked"> Male
+						&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="gender" value="F"/> Female
+						&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="gender" value="O"/> Others
+					</td>
+				</tr>
+
+				<tr>
+					<td>DOB</td>
+					<td><input type="date" name="dob" placeholder="mm/dd/yyyy" required/>
+				</tr>
+
+				<tr>
+					<td>Nationality</td>
+					<td>
+						<select name="country" size="1" required>
+							<option value="">--Choose--</option>
+							<option value="NP">Nepal</option>
+							<option value="IN">India</option>
+							<option value="BA">Bangladesh</option>
+                            <option value="MA">Maldives</option>
+                            <option value="K">Korea</option>
+                            <option value="J">Japan</option>
+						</select>
+					</td>
+				</tr>
+
+
+				<tr>
+					<td>Position
+					</td>
+					<td>
+						<input type="checkbox" name="singer" value="singer" checked/> Singer
+						&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="dancer"/> Dancer
+						&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="rapper"/> Rapper
+						&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="producer"/> Producer
+					</td>
+				</tr>
+		
+				<tr>
+					<td>Photo</td>
+					<td>
+					<input type="file" accept=".jpg, .png, .jpeg, .gif, .bmp, .tif, .tiff|image/*" name="photo" required/>
+					<!--whenever we write input type="file" we have to add enctype="....." in the form above-->
+					</td>
+				</tr>
+
+				<tr>
+					<td>Video</td>
+					<td>
+					<input type="file" accept=".MP4, .mp4, .m4a, .m4v, .f4v, .f4a, .m4b, .m4r, .f4b, .WEBM, .mov, .flv, .avi|video/*" name="video" required/>
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<input type="submit" name="submit" value="Send"/>
+						<input type="reset" name="reset" value="Clear"/>
+					</td>
+				</tr>
+			</table> 
+		</fieldset>
+
+	</div>
+	</div>
+	</div>
+<script src="js/contact.js">
+	</script>
+<noscript>
+Your browser doesn't support JavaScript!</noscript>
+<p>
+	<br/><br/>
+	<b>Audition Notes</b></p><br/><p>
+	1. Photoshopped photos cannot be accepted.<br/>
+	2. Edited audio or video are not accepted.<br/>
+	3. The result is notified via email.<br/>
+	4. If there is no contact for more than 2 weeks, it can be considered as rejection.<br/>	
+</p>
+</div>
+
+
+<!--Footer-->
+<div class="footer">
+	<div class="inner-footer">
+		<div class="footer-items">
+			<h1>Connect with Us</h1>
+			<div class="border"></div>
+			<div class="social-media">
+				<a href="https://www.facebook.com/JinHitEntBD/"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+				<a href="https://www.instagram.com/jinhit/?hl=en"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+				<a href="https://twitter.com/jin_hit_ent"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+				<a href="https://www.youtube.com/channel/UCWofNmoukbPFC1M7roUdecw/videos"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a>
+			</div>
+		</div>
+
+			<div class="footer-items">
+			<h1>Site Map</h1>
+			<div class="border"></div>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="about_US.html">ABOUT US</a></li>		
+				<li><a href="gallery.html">ARTISTS</a></li>
+				<li><a href="pd.html">PD</a></li>
+				<li><a href="discography.html">DISCOGRAPHY</a></li>
+				<li><a href="audition.html">AUDITION</a></li>
+			</ul>
+		</div>
+
+		<div class="footer-items">
+			<h1>Contact</h1>
+			<div class="border"></div>
+			<ul>
+				<a href="https://www.google.com/maps/place/Islington+College/@27.7087027,85.3259876,15z/data=!4m5!3m4!1s0x0:0x1fdf1a6d41d2512d!8m2!3d27.7087027!4d85.3259876"><li><i class="fa fa-map-marker" aria-hidden="true"> Kamal Marg, Kamal Pokhari, Kathmandu, Nepal</i></li></a>
+				<li><i class="fa fa-phone" aria-hidden="true"> 441-2929, 980-1022446</i></li>
+				<a href="mailto:jinhit@jinhit.com"><li><i class="fa fa-envelope" aria-hidden="true"> jinhit@jinhit.com</i></li></a>
+				<li><i class="fa fa-fax" aria-hidden="true"> +1 323 555 1234</i></li>
+			</ul>
+		</div>
+	</div>
+	<div class="footer-bottom">
+	Copyright &copy; 2020 JINHIT Co.Ltd. All rights reserved.
+	</div>
+</div>
+
+
+</body>
+</html>
